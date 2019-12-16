@@ -1,0 +1,13 @@
+.blocks-gallery-grid {
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+li.blocks-gallery-item {
+    @include media-breakpoint-down(sm) {
+        margin: 1rem 0 !important;
+        width: 100% !important;
+    }
+}
