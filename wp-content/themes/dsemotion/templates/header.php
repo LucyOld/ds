@@ -6,17 +6,17 @@
     </div>
 
     <div class="header-container__logo">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="wp-content/themes/dsemotion/assets/images/logo.jpeg"></a>
+    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="wp-content/themes/dsemotion/assets/images/logo.jpg"></a>
     </div>
 
     <div class="header-container__icons">
-      <div class="header-container__icons--single">Wishlist<img src="wp-content/themes/dsemotion/assets/images/heart-icon.jpeg"></div>
-      <div class="header-container__icons--single">Cart<img src="wp-content/themes/dsemotion/assets/images/cart-icon.jpeg"></div>
-      <div class="header-container__icons--single">Login<img src="wp-content/themes/dsemotion/assets/images/login-icon.jpeg"></div>
+      <div class="header-container__icons--single"><a href="#">Wishlist<img src="wp-content/themes/dsemotion/assets/images/heart-icon.jpeg"></a></div>
+      <div class="header-container__icons--single"><a href="#">Cart<img src="wp-content/themes/dsemotion/assets/images/cart-icon.jpeg"></a></div>
+      <div class="header-container__icons--single"><a href="#">Login<img src="wp-content/themes/dsemotion/assets/images/login-icon.jpeg"></a></div>
     </div>
   </div>
 
-  <nav class="header-container__main-nav">
+  <nav class="header__main-nav">
       <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
