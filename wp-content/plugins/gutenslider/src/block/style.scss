@@ -1,0 +1,471 @@
+// /**
+//  * #.# Styles
+//  *
+//  * CSS for both Frontend+Backend.
+//  */
+
+.slick-slider,
+.wp-block-eedee-block-gutenslider {
+	background-size: cover;
+	background-position: center center;
+	min-height: var(--gutenslider-min-height);
+
+	.slick-track{
+		display: flex;
+		min-height: var(--gutenslider-min-height);
+
+		.slick-slide{
+			display: flex;
+			height: auto;
+		}
+	}
+
+	.gutenslider-empty {
+		display: none;
+	}
+}
+
+.wp-block-eedee-block-gutenslider {
+
+	.slick-slider {
+		background-image: var(--gutenslider-bg-image);
+	}
+
+	.slick-slider,
+	.slick-list,
+	.slick-track {
+		height: 100%;
+	}
+
+	//hide the content that is inserted in the same div as slick slides
+	//by the way slick is called, it does not make that content (the fixed)
+	//content for fixedMode a slide, so we have to hide it
+	//dots and arrows are also affected by this rule but they get a display
+	//inline-block from slick
+	.slick-slider {
+		> *:not(.slick-list) {
+			display: none;
+		}
+	}
+
+	.slider-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+}
+
+.wp-block-eedee-block-gutenslider {
+	.wp-block-eedee-block-gutenslide.vertical-align-top .slide-content {
+		justify-content: flex-start;
+	}
+
+	.wp-block-eedee-block-gutenslide.vertical-align-center .slide-content {
+		justify-content: flex-center;
+	}
+
+	.wp-block-eedee-block-gutenslide.vertical-align-bottom .slide-content {
+		justify-content: flex-end;
+	}
+
+	&.vertical-align-top {
+		.wp-block-eedee-gutenslider__content,
+		.slide-content {
+			justify-content: flex-start;
+		}
+	}
+
+	&.vertical-align-center {
+		.wp-block-eedee-gutenslider__content,
+		.slide-content {
+			justify-content: center;
+		}
+	}
+
+	&.vertical-align-bottom {
+		.wp-block-eedee-gutenslider__content,
+		.slide-content {
+			justify-content: flex-end;
+		}
+	}
+}
+
+.wp-block-eedee-block-gutenslider.content-fixed {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.slick-slider {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		> *:not(.slick-list) {
+			display: none;
+		}
+
+		.slick-list .wp-block-eedee-block-gutenslide .slide-content {
+			display: none;
+		}
+	}
+
+	.wp-block-eedee-gutenslider__content {
+		z-index: 1;
+		position: relative;
+
+		.wp-block-eedee-block-gutenslide {
+			display: none;
+		}
+	}
+}
+
+.wp-block-eedee-block-gutenslider.has-no-slides {
+	min-height: 0;
+
+	.slick-track,
+	.slick-slider {
+		min-height: 0;
+	}
+
+	.gutenslider-empty {
+		display: block;
+	}
+}
+
+.slick-slide {
+	height: 100%;
+
+	> div {
+		height: 100%;
+		width: 100%;
+		display: flex;
+	}
+}
+
+.wp-block-eedee-block-gutenslide {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  .slide-bg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+
+    video, img {
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      min-height: var(--gutenslider-min-height);
+			// min-width: 100%;
+		  // min-height: 100%;
+			// top: -9999px;
+		  // right: -9999px;
+		  // bottom: -9999px;
+		  // left: -9999px;
+		  // margin: auto;
+    }
+  }
+
+  .slide-content {
+    min-height: var(--gutenslider-min-height);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    flex-direction: column;
+		// pointer-events: none;
+  }
+
+	.slide-overlay {
+		height: 100%;
+    width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+	}
+
+	.slide-link {
+		height: 100%;
+    width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+// slider navigation
+.wp-block-eedee-block-gutenslider {
+	.slick-prev, .slick-next {
+		height: var(--gutenslider-arrow-size);
+		width: var(--gutenslider-arrow-size);
+		min-width: 50px;
+	}
+
+	.slick-prev:before,
+	.slick-next:before {
+		font-family: "Lucida Console, Monaco, monospace";
+		font-size: var(--gutenslider-arrow-size);
+		color: var(--gutenslider-arrow-color);
+		opacity: 0.5;
+	}
+
+	.slick-arrow.slick-prev {
+		z-index: 2;
+		left: 0px;
+	}
+
+	.slick-arrow.slick-next {
+		z-index: 2;
+		right: 0px;
+	}
+
+	.slick-dots {
+		margin-bottom: 0;
+		bottom: calc(var(--gutenslider-dot-size) * 0.4);
+		z-index: 2;
+	}
+
+	.slick-dots li {
+		margin-left: calc(-0.1 * var(--gutenslider-dot-size));
+		margin-right: calc(-0.1 * var(--gutenslider-dot-size));
+	}
+
+	.slick-dots li,
+	.slick-dots li button,
+	.slick-dots li button:before {
+		width: var(--gutenslider-dot-size);
+		height: var(--gutenslider-dot-size);
+	}
+
+	.slick-dots li button:before {
+		font-size: var(--gutenslider-dot-size);
+		color: var(--gutenslider-dot-color);
+		opacity: 0.5;
+		line-height: var(--gutenslider-dot-size);
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: var(--gutenslider-dot-color);
+		opacity: 1;
+	}
+}
+
+//fullscreen slider
+body:not(.blog):not(.archive) .wp-block-eedee-block-gutenslider.is-full {
+	--gutenslider-min-height: 100vh !important;
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  min-width: 100vw;
+  z-index: -10;
+  margin: 0 !important;
+
+  .slick-slider .image {
+    height: 100vh !important;
+  }
+}
+
+body.blog,
+body.archive {
+	.wp-block-eedee-block-gutenslider.is-full {
+		display: none;
+	}
+}
+
+.wp-block-eedee-block-gutenslider {
+	.wp-block-eedee-gutenslider__content {
+    will-change: opacity;
+		min-height: var(--gutenslider-min-height);
+
+		//remove margin from first element with or without changing slides
+		> :first-child,
+		> .wp-block-eedee-block-gutenslide + :not(.wp-block-eedee-block-gutenslide) {
+			margin-top: 0;
+		}
+
+		//remove margin from last element
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		&.mb-difference {
+			mix-blend-mode: difference;
+		}
+
+		&.mb-color-burn {
+			mix-blend-mode: color-burn;
+		}
+
+		&.mb-color-dodge {
+			mix-blend-mode: color-dodge;
+		}
+
+		&.mb-color-exclusion {
+			mix-blend-mode: exclusion;
+		}
+
+		&.mb-saturation {
+			mix-blend-mode: saturation;
+		}
+
+		&.co-0 {
+			opacity: 0;
+		}
+
+		&.co-10 {
+			opacity: 0.1;
+		}
+
+		&.co-20 {
+			opacity: 0.2;
+		}
+
+		&.co-30 {
+			opacity: 0.3;
+		}
+
+		&.co-40 {
+			opacity: 0.4;
+		}
+
+		&.co-50 {
+			opacity: 0.5;
+		}
+
+		&.co-60 {
+			opacity: 0.6;
+		}
+
+		&.co-70 {
+			opacity: 0.7;
+		}
+
+		&.co-80 {
+			opacity: 0.8;
+		}
+
+		&.co-90 {
+			opacity: 0.9;
+		}
+
+		&.co-100 {
+			opacity: 1;
+		}
+  }
+
+	.slick-next:before,
+	.slick-prev:before {
+		font-weight: 400;
+		font-family: dashicons;
+	}
+
+	&.arrow-style-1 {
+		.slick-next:before {
+			content: '\f345';
+		}
+
+		.slick-prev:before {
+			content: "\f341";
+		}
+	}
+
+	&.arrow-style-2 {
+		.slick-next:before {
+			content: "\f344";
+		}
+
+		.slick-prev:before {
+			content: "\f340";
+		}
+	}
+
+	&.arrow-style-3 {
+		.slick-next:before {
+			content: "\f519";
+		}
+
+		.slick-prev:before {
+			content: "\f518";
+		}
+	}
+
+	&.dot-style-1 {
+		.slick-dots li button::before	{
+			content: '●';
+		}
+	}
+	&.dot-style-2 {
+		.slick-dots li button::before	{
+			content: '■';
+		}
+	}
+	&.dot-style-3 {
+		.slick-dots li button::before	{
+			content: '◆';
+		}
+	}
+	&.dot-style-4 {
+		.slick-dots li button::before	{
+			content: '▲';
+		}
+	}
+}
+
+//spacing
+.wp-block-eedee-block-gutenslider {
+	&.content-change .slide-content,
+	&.content-fixed .wp-block-eedee-gutenslider__content {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+
+		padding-top: var(--gutenslider-padding-y-mobile);
+		padding-bottom: var(--gutenslider-padding-y-mobile);
+		padding-left: var(--gutenslider-padding-x-mobile);
+		padding-right: var(--gutenslider-padding-x-mobile);
+
+		// Medium devices (tablets, 768px and up)
+		@media (min-width: 768px) {
+			padding-top: var(--gutenslider-padding-y-tablet);
+			padding-bottom: var(--gutenslider-padding-y-tablet);
+			padding-left: var(--gutenslider-padding-x-tablet);
+			padding-right: var(--gutenslider-padding-x-tablet);
+		}
+
+		// Large devices (desktops, 992px and up)
+		@media (min-width: 992px) {
+			padding-top: var(--gutenslider-padding-y-desktop);
+			padding-bottom: var(--gutenslider-padding-y-desktop);
+			padding-left: var(--gutenslider-padding-x-desktop);
+			padding-right: var(--gutenslider-padding-x-desktop);
+		}
+	}
+}
+
+//alignment
+.wp-block-eedee-block-gutenslider {
+	&.alignleft,
+	&.alignright,
+	&.aligncenter {
+		min-width: 50%;
+	}
+}
