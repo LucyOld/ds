@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/blocks/blocks_free.js:41
+#: src/blocks/blocks_pro.js:41
+msgid "Gutenslider"
+msgstr ""
+
+#: src/blocks/blocks_free.js:42
+#: src/blocks/blocks_pro.js:42
+msgid "Slider Block for Gutenberg that slides images with arbitrary blocks on top."
+msgstr ""
+
+#: src/blocks/blocks_free.js:46
+#: src/blocks/blocks_pro.js:46
+msgid "Slider"
+msgstr ""
+
+#: src/blocks/blocks_free.js:64
+#: src/blocks/blocks_pro.js:66
+msgid "Gutenslide"
+msgstr ""
+
+#: src/blocks/blocks_free.js:65
+#: src/blocks/blocks_pro.js:67
+msgid "Single Slide for Gutenslider."
+msgstr ""
+
+#: src/blocks/blocks_free.js:69
+#: src/blocks/blocks_pro.js:71
+msgid "Slide"
+msgstr ""
+
+#: src/blocks/blocks_free.js:70
+#: src/blocks/blocks_pro.js:72
+msgid "Image"
+msgstr ""
+
+#: src/blocks/blocks_free.js:71
+#: src/blocks/blocks_pro.js:73
+msgid "Carousel"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:55
+#: src/blocks/gutenslider/attributes.js:182
+msgid "↑ bottom to top"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:56
+#: src/blocks/gutenslider/attributes.js:183
+msgid "↓ top to bottom"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:57
+#: src/blocks/gutenslider/attributes.js:184
+msgid "→ left to right"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:58
+#: src/blocks/gutenslider/attributes.js:185
+msgid "← right to left"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:68
+#: src/blocks/gutenslider/attributes.js:195
+msgid "Style 1"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:69
+#: src/blocks/gutenslider/attributes.js:196
+msgid "Style 2"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:70
+#: src/blocks/gutenslider/attributes.js:197
+msgid "Style 3"
+msgstr ""
+
+#: src/blocks/gutenslide/attributes.js:71
+#: src/blocks/gutenslider/attributes.js:198
+msgid "Style 4"
+msgstr ""
+
+#: src/blocks/gutenslide/block_free/inspector-controls.js:19
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:22
+msgid "Slide Settings"
+msgstr ""
+
+#: src/blocks/gutenslide/block_free/inspector-controls.js:23
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:26
+msgid "Slide Link"
+msgstr ""
+
+#: src/blocks/gutenslide/block_free/inspector-controls.js:26
+msgid "Set an url that opens, when the user clicks the slide."
+msgstr ""
+
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:29
+msgid "Set an url that opens, when the user clicks the slide"
+msgstr ""
+
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:33
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:535
+msgid "Colors"
+msgstr ""
+
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:39
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:541
+msgid "Overlay Color"
+msgstr ""
+
+#: src/blocks/gutenslide/block_pro/inspector-controls.js:44
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:556
+msgid "Overlay Opacity"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/edit.js:470
+#: src/blocks/gutenslider/block_pro/edit.js:471
+msgid "Preview Slider"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/edit.js:470
+#: src/blocks/gutenslider/block_pro/edit.js:471
+msgid "Edit Slide Content"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/edit.js:602
+msgid "Drag images, upload new ones or select files from your library."
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/edit.js:621
+#: src/blocks/gutenslider/block_pro/edit.js:622
+msgid "Slide %1$d of %2$d in Gutenslider"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/edit.js:705
+#: src/blocks/gutenslider/block_pro/edit.js:708
+msgid "Edit Slides"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:271
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:282
+msgid "Spacing Top + Bottom"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:277
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:288
+msgid "Spacing Unit"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:294
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:305
+msgid "Spacing Left + Right"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:307
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:318
+msgid "General Slider Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:310
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:321
+msgid "Fade Mode"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:332
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:343
+msgid "Slide Mode"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:356
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:367
+msgid "Advanced Slider Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:361
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:372
+msgid "Slider Height"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:372
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:383
+msgid "Autoplay"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:377
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:388
+msgid "Show Arrows"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:382
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:393
+msgid "Show Dots"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:387
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:398
+msgid "Fullscreen Background Slider"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:389
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:400
+msgid ""
+"Full Screen Background Slider preview is not available in the editor, check "
+"the live site to see it in action."
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:394
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:429
+msgid "Autoplay Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:399
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:434
+msgid "Pause on Focus"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:404
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:439
+msgid "Pause on Hover"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:409
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:444
+msgid "Pause on Dots Hover"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:420
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:469
+msgid "Arrow Size (px)"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:434
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:495
+msgid "Dot Size (px)"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:443
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:510
+msgid "Parallax Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:447
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:514
+msgid "Parallax"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:458
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:525
+msgid "Parallax Amount"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:468
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:566
+msgid "Spacing"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:501
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:599
+msgid "Art Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:505
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:603
+msgid "Mix Blend Mode"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:518
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:616
+msgid "Enable Preview"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:519
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:617
+msgid "Enable or disable the preview of \"Mix Blend Mode\" setting above"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:524
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:622
+msgid "Content Opacity"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:64
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:75
+msgid "Arrow Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_free/inspector-controls.js:73
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:84
+msgid "Dot Settings"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/edit.js:603
+msgid "Drag images or videos, upload new ones or select files from your library."
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:404
+msgid "Animation Speed (sec)"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:412
+msgid "Slides to Show"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:420
+msgid "Slides to Scroll"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:449
+msgid "Slide Duration (sec)"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:463
+msgid "Arrow Style"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:477
+msgid "Arrow Color"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:489
+msgid "Dot Style"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:503
+msgid "Dot Color"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:546
+msgid "Arrows Color"
+msgstr ""
+
+#: src/blocks/gutenslider/block_pro/inspector-controls.js:551
+msgid "Dots Color"
+msgstr ""
+
+#: src/components/gallery-image.js:113
+msgid "Remove Slide"
+msgstr ""
+
+#: src/components/unit-button/index.js:144
+msgid "Reset"
+msgstr ""
+
+#: src/components/block-vertical-alignment-toolbar/index.js:15
+msgctxt "Block vertical alignment setting"
+msgid "Vertically Align Content Top"
+msgstr ""
+
+#: src/components/block-vertical-alignment-toolbar/index.js:19
+msgctxt "Block vertical alignment setting"
+msgid "Vertically Align Content Middle"
+msgstr ""
+
+#: src/components/block-vertical-alignment-toolbar/index.js:23
+msgctxt "Block vertical alignment setting"
+msgid "Vertically Align Content Bottom"
+msgstr ""
+
+#: src/components/block-vertical-alignment-toolbar/index.js:42
+msgctxt "Block vertical alignment setting label"
+msgid "Change vertical alignment"
+msgstr ""
