@@ -1,0 +1,214 @@
+# Copyright (C) 2019 Tajam
+# This file is distributed under the same license as the Flex Posts - Widget and Gutenberg Block plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flex Posts - Widget and Gutenberg Block 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flex-posts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-11T14:07:35+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: flex-posts\n"
+
+#. Plugin Name of the plugin
+msgid "Flex Posts - Widget and Gutenberg Block"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://tajam.id/flex-posts/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A widget to display posts with thumbnails in various layouts for any widget area."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tajam"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tajam.id/"
+msgstr ""
+
+#: blocks/list/block.php:41
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-flex-posts-list.php:23
+#: blocks/list/block.js:6
+msgid "Flex Posts"
+msgstr ""
+
+#: includes/class-flex-posts-list.php:25
+msgid "Displays posts list."
+msgstr ""
+
+#: includes/functions.php:189
+msgid "Previous"
+msgstr ""
+
+#: includes/functions.php:190
+msgid "Next"
+msgstr ""
+
+#: includes/functions.php:198
+#: includes/functions.php:323
+msgid "Page"
+msgstr ""
+
+#: includes/functions.php:234
+msgid "Read more"
+msgstr ""
+
+#: includes/functions.php:322
+msgid "Post"
+msgstr ""
+
+#: includes/functions.php:360
+msgid "Newest"
+msgstr ""
+
+#: includes/functions.php:361
+msgid "Oldest"
+msgstr ""
+
+#: includes/functions.php:362
+msgid "Most commented"
+msgstr ""
+
+#: includes/functions.php:363
+msgid "Alphabetical"
+msgstr ""
+
+#: includes/functions.php:364
+msgid "Random"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:236
+#: includes/class-flex-posts-widget.php:266
+#: blocks/list/block.js:95
+msgid "Layout"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:251
+#: blocks/list/block.js:108
+msgid "General"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:256
+#: blocks/list/block.js:115
+msgid "Title"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:261
+#: blocks/list/block.js:126
+msgid "Title URL"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:279
+#: blocks/list/block.js:152
+msgid "Filter"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:284
+msgid "Post Type"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:291
+#: blocks/list/block.js:169
+msgid "Category"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:296
+#: blocks/list/block.js:181
+msgid "Tag(s)"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:301
+#: blocks/list/block.js:191
+msgid "Order by"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:308
+#: blocks/list/block.js:202
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:315
+#: blocks/list/block.js:213
+msgid "Number of posts to skip"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:328
+#: blocks/list/block.js:229
+msgid "Display"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:333
+#: blocks/list/block.js:235
+msgid "Show image on"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:335
+#: blocks/list/block.js:238
+msgid "All posts"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:336
+#: blocks/list/block.js:239
+msgid "First post only"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:337
+#: blocks/list/block.js:240
+msgid "None"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:344
+#: blocks/list/block.js:250
+msgid "Show categories"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:350
+#: blocks/list/block.js:260
+msgid "Show author"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:356
+#: blocks/list/block.js:270
+msgid "Show date"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:362
+#: blocks/list/block.js:280
+msgid "Show comments number"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:368
+#: blocks/list/block.js:290
+msgid "Show excerpt"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:374
+#: blocks/list/block.js:301
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:380
+#: blocks/list/block.js:311
+msgid "Show read more link"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:386
+#: blocks/list/block.js:322
+msgid "Read more text"
+msgstr ""
+
+#: includes/class-flex-posts-widget.php:392
+#: blocks/list/block.js:332
+msgid "Show pagination"
+msgstr ""
