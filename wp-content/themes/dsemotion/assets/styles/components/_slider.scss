@@ -1,0 +1,6 @@
+.wp-block-eedee-block-gutenslider {
+    @include media-breakpoint-down(md) {
+        max-width: 100vw;
+        
+    }
+}
